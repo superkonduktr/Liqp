@@ -57,6 +57,7 @@ public abstract class Filter extends LValue {
         registerFilter(new Times());
         registerFilter(new Truncate());
         registerFilter(new Truncatewords());
+        registerFilter(new Unclickable());
         registerFilter(new Upcase());
     }
 

@@ -54,6 +54,7 @@ public abstract class Filter extends LValue {
         registerFilter(new Split());
         registerFilter(new Strip_HTML());
         registerFilter(new Strip_Newlines());
+        registerFilter(new Sum());
         registerFilter(new Times());
         registerFilter(new Truncate());
         registerFilter(new Truncatewords());

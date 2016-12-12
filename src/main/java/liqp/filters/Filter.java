@@ -46,6 +46,7 @@ public abstract class Filter extends LValue {
         registerFilter(new Newline_To_Br());
         registerFilter(new Plus());
         registerFilter(new Prepend());
+        registerFilter(new Randint());
         registerFilter(new Remove());
         registerFilter(new Remove_First());
         registerFilter(new Replace());

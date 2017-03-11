@@ -39,6 +39,7 @@ public abstract class Filter extends LValue {
         registerFilter(new Join());
         registerFilter(new Json());
         registerFilter(new Last());
+        registerFilter(new Limit());
         registerFilter(new liqp.filters.Map());
         registerFilter(new Minus());
         registerFilter(new Modulo());
